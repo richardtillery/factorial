@@ -1,0 +1,13 @@
+{
+    
+    "name": "factorial",        
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "node -e  'import(\"./index.mjs\").then(i => i.computeFactorial(parseInt(process.argv[1]))).then(r => console.log(r))'"
+    },        
+    "author": "Richard Tillery",        
+    "license": "ISC",        
+    "description": "Node JS Basic"
+    }
+    
